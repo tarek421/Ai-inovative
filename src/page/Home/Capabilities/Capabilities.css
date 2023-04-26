@@ -1,0 +1,164 @@
+#capabilities {
+  background: linear-gradient(
+    111.02deg,
+    #1b1464 0%,
+    #2b2591 43.22%,
+    #0c0c37 100%
+  );
+  color: #fff;
+  position: relative;
+}
+
+#capabilities .capabilities-head {
+  /* width: 916px; */
+  margin: auto;
+  text-align: center;
+  padding: 0 160px;
+}
+
+#capabilities .capabilities-head h4 {
+  background: #4f46db;
+  border-radius: 4px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #e8e8f0;
+  padding: 4px 8px;
+  width: 154px;
+  height: 31px;
+  margin: auto;
+}
+
+#capabilities .capabilities-head h1 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+}
+
+#capabilities .index-number {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  width: 28px;
+  height: 28px;
+  background: #7f56d9;
+  border-radius: 8px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+#capabilities .capabilities-head p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #ededed;
+}
+
+#capabilities .accordion-button:not(.collapsed) {
+  color: #000000c0;
+  background-color: transparent;
+  box-shadow: 0;
+}
+
+#capabilities .accordion {
+  --bs-accordion-color: #fff;
+  --bs-accordion-bg: transparent;
+  --bs-accordion-btn-color: #fdfeff;
+  --bs-accordion-border-width: 0px;
+  --bs-accordion-btn-padding-x: 0.25rem;
+}
+
+#capabilities .accordion-item {
+  color: white;
+  background-color: transparent !important;
+  border: var(--bs-accordion-border-width) solid #d3d8dd9e;
+  border: 0.5 px solid #e2e6e99e;
+}
+
+#capabilities .border-bottom {
+  border-bottom: var(--bs-border-width) var(--bs-border-style) #dee2e694 !important;
+}
+
+#capabilities .accordion-body {
+  text-align: left;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 0px;
+  margin-bottom: 15px;
+}
+
+#capabilities .accordion-button:focus {
+  z-index: 3;
+  border-color: var(--bs-accordion-btn-focus-border-color);
+  outline: 0;
+  box-shadow: 0px 0px transparent;
+}
+
+/* <img src="https://img.icons8.com/android/24/null/collapse-arrow.png"/> */
+
+#capabilities .accordion-button::after {
+  background-image: url('https://img.icons8.com/android/24/ffffff/collapse-arrow.png');
+  transform: var(--bs-accordion-btn-icon-transform);
+}
+
+#capabilities .accordion-button:not(.collapsed)::after {
+  background-image: url('https://img.icons8.com/android/24/ffffff/expand-arrow.png');
+  transform: var(--bs-accordion-btn-icon-transform);
+}
+
+#capabilities .accordion-button {
+  color: white;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+#capabilities .accordion-button:not(.collapsed) {
+  color: #fffcfcc0;
+  background-color: transparent;
+  box-shadow: 0;
+}
+
+#capabilities img {
+  width: 100%;
+  height: auto;
+}
+
+#capabilities .build-revinew {
+  width: 220px;
+  border: 1px solid;
+  padding: 8px;
+  margin: 25px auto;
+  text-align: left;
+}
+
+.build-revinew ul {
+  margin: 0px;
+}
+
+@media screen and (max-width: 420px) {
+  #capabilities .capabilities-head {
+    padding: 0;
+  }
+
+  #capabilities .capabilities-head h1 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-top: 15px;
+  }
+}

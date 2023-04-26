@@ -1,0 +1,94 @@
+#usecase-product {
+  background: linear-gradient(
+    111.02deg,
+    #020216 0%,
+    #131042 50.52%,
+    #080827 100%
+  );
+}
+
+#usecase-product .head h5 {
+  width: 154px;
+  height: 31px;
+  margin: auto;
+  border-radius: 5px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  background: #4f46db;
+  color: #e8e8f0;
+  padding: 4px 8px;
+  text-align: center;
+}
+
+#usecase-product .head h1 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  color: #ffffff;
+}
+
+#usecase-product .head p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #ededed;
+  width: 850px;
+  margin: auto;
+}
+
+#usecase-product .main .cx-bost {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 135px;
+  width: 1200px;
+  height: 308.82px;
+}
+
+#usecase-product .main .use-case-1 {
+  width: 80%;
+  text-align: right;
+  float: right;
+}
+
+#usecase-product .main .logo h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 32px;
+  color: #e668a5;
+  margin: 0 15px;
+}
+
+#usecase-product .main .logo img {
+  width: 60px;
+}
+
+#usecase-product .main h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
+}
+
+#usecase-product .main p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ededed;
+  margin-top: 12px;
+}
