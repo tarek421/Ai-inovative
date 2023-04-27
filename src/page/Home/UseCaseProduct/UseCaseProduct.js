@@ -13,7 +13,7 @@ const UseCaseProduct = () => {
     return (
         <div id='usecase-product' className='py-5'>
             <div className="container">
-                <div className='head'>
+                <div className='head px-sm-1 px-md-4'>
                     <h5>Our Capabilities</h5>
                     <h1>Use-Cases and Products</h1>
                     <p>Our expert team helps you identify impactful opportunities and implement tailored solutions to solve your business problems. See our core solutions to learn more about what we offer</p>
@@ -38,7 +38,7 @@ const UseCaseProduct = () => {
 
                     <div className="row mt-5 pt-5 align-items-center">
                         <div className="col-md-6 col-sm-12">
-                            <img style={{ width: '450px' }} src={useCase_2} alt="" />
+                            <img src={useCase_2} alt="" />
                         </div>
                         <div className="col-md-6 col-sm-12">
                             <div>
@@ -70,7 +70,7 @@ const UseCaseProduct = () => {
 
                     <div className="row mt-5 pt-5 align-items-center">
                         <div className="col-md-6 col-sm-12">
-                            <img style={{ width: '450px' }} src={useCase_4} alt="" />
+                            <img src={useCase_4} alt="" />
                         </div>
                         <div className="col-md-6 col-sm-12">
                             <div>

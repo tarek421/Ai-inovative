@@ -40,11 +40,11 @@
   line-height: 28px;
   text-align: center;
   color: #ededed;
-  width: 850px;
+  /* width: 850px; */
   margin: auto;
 }
 
-#usecase-product .main .cx-bost {
+/* #usecase-product .main .cx-bost {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -53,12 +53,16 @@
   gap: 135px;
   width: 1200px;
   height: 308.82px;
-}
+} */
 
 #usecase-product .main .use-case-1 {
   width: 80%;
   text-align: right;
   float: right;
+}
+
+#usecase-product .main img {
+  width: 100%;
 }
 
 #usecase-product .main .logo h4 {

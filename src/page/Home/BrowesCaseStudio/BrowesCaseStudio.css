@@ -87,3 +87,9 @@
 .swiper-button-prev::after {
   display: none;
 }
+
+@media screen and (max-width: 420px) {
+  .swiper-button-prev {
+    left: 80% !important;
+  }
+}
